@@ -13,6 +13,9 @@ if %input% == Y goto deleter
 if %input% == N cls goto checker
 if %input% == y goto deleter
 if %input% == n cls goto checker
+echo Wrong choice 
+cls
+goto check
 
 :checker
 cls
@@ -27,6 +30,9 @@ if %input% == Y cls goto deleter
 if %input% == N goto checker
 if %input% == y cls goto deleter
 if %input% == n goto checker
+echo Wrong choice 
+cls
+goto check
 
 :deleter
 set /p url= Enter Your Webhook To Delete:
@@ -40,6 +46,9 @@ if %exit% == Y goto exits
 if %exit% == N goto Main 
 if %exit% == y goto exits
 if %exit% == n goto Main 
+echo Wrong choice 
+cls
+goto exit
 
 :exits
 exit
