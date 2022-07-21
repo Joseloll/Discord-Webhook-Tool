@@ -32,7 +32,7 @@ if %input% == y cls goto deleter
 if %input% == n goto checker
 echo Wrong choice 
 cls
-goto check
+goto checker
 
 :deleter
 set /p url= Enter Your Webhook To Delete:
