@@ -19,6 +19,7 @@ goto check
 
 :checker
 cls
+echo Made By Jose
 set /p check= Enter Webhook To Check:
 CURL %check%
 pause
