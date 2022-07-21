@@ -1,4 +1,4 @@
-# Webhook Checker/Deleter 
+#  Discord Webhook Checker/Deleter 
 
 # Features:
 - Discord Webhook Checker
