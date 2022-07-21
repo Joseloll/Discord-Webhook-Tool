@@ -10,9 +10,9 @@ goto check
 :check
 set /p input= Is Webhook Valid Y/N:
 if %input% == Y goto deleter
-if %input% == N cls goto checker
+if %input% == N goto checker
 if %input% == y goto deleter
-if %input% == n cls goto checker
+if %input% == n goto checker
 echo Wrong choice 
 cls
 goto check
