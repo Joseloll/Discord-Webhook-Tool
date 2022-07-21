@@ -27,15 +27,16 @@ cls
 goto check
 :check
 set /p input= Is Webhook Valid Y/N:
-if %input% == Y cls goto deleter
+if %input% == Y goto deleter
 if %input% == N goto checker
-if %input% == y cls goto deleter
+if %input% == y goto deleter
 if %input% == n goto checker
 echo Wrong choice 
 cls
 goto check
 
 :deleter
+cls
 set /p url= Enter Your Webhook To Delete:
 CURL -X DELETE %url%
 set /p input= Webhook Sucessfully Deleted
