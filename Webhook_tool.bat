@@ -10,7 +10,6 @@ echo Wrong choice
 cls
 goto main
 
-
 :checkers
 set /p check= Enter Your 1st Webhook Url:
 curl %check%
