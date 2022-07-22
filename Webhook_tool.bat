@@ -1,7 +1,6 @@
 @echo off
 :Main
 cls
-:main
 echo Made By Jose
 set /p option= Would You Like To Check 1 One Webhook Or 2:
 if %option% == 1 goto checker
