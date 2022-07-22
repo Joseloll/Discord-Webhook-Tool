@@ -2,7 +2,7 @@
 :Main
 cls
 echo Made By Jose
-set /p option= Would You Like To Check 1 One Webhook Or 2:
+set /p option= Would You Like To Check 1 Or 2 Webhooks:
 if %option% == 1 goto checker
 if %option% == 2 goto checkers
 echo Wrong choice
